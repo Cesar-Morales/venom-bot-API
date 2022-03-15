@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "test": "nodemon ./index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.2",
     "express": "^4.17.3",
+    "nodemon": "^2.0.15",
     "venom-bot": "^4.0.9"
   }
 }

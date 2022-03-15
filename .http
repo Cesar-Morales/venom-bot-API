@@ -1,1 +1,11 @@
 GET http://localhost:3333/549-NUM
+
+#####
+
+POST http://localhost:3333/sendtext
+Content-Type: application/json
+
+{
+    "number": "549-NUM",
+    "message": "HOLA DESDE LA API"
+}
