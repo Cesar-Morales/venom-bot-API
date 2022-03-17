@@ -33,7 +33,7 @@ function startVenom(client) {
   
 
   client.onMessage((message) => {
-    if (message.body.includes('HoLa')) {
+    if (message.body.toUpperCase() == 'HOLA') {
       client.sendText(message.from, 'Hello from VenomBot')
       .then((result) => {
         console.log('Result: ', result); //return object success
